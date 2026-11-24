@@ -1,0 +1,17 @@
+# Python 3.10+ is required. Google Colab already has all of these installed.
+# For a CUDA GPU build of PyTorch, install torch/torchvision first following https://pytorch.org/get-started/locally/
+torch>=2.3
+numpy>=1.24
+pandas>=2.0
+opencv-python-headless>=4.8
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.10
+scikit-learn>=1.3
+scikit-image>=0.21
+pillow>=10.0
+psutil>=5.9
+jupyter
+
+# Optional: only for the live web demo in section 7 (LAUNCH_GRADIO = True)
+# gradio>=4.0

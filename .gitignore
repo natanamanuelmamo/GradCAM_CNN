@@ -1,0 +1,23 @@
+# Dataset and caches created by the notebook (downloaded on demand, ~1-2 GB)
+data/
+*.npz
+
+# Model weights and run outputs (artifacts/ holds final_model.pt, checkpoints, split.csv)
+artifacts/
+*.pt
+*.pth
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
